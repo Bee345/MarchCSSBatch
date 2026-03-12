@@ -1,0 +1,67 @@
+.holder{ 
+    width: 80%;
+    margin: auto;
+    background: hsl(60, 39%, 20%);
+    opacity: 0.2;
+}
+
+.banner{ 
+    width: 80%;
+    border: 2px solid black;
+    height: 50vh;
+    position: relative;
+    margin: auto;
+    border-radius: 40px;
+    background: url("./Football.jpeg") no-repeat center;
+    /* opacity: 0.4; */
+}
+.writeUp{ 
+    width: 100%;
+    height: 50vh;
+    border: 3px groove yellow;
+    border-radius: 40px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+.writeUp h2{ 
+    color: wheat;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hero{ 
+    width: 90%;
+    height: 50vh;
+    border: 4px groove #f24e5c;
+    margin: auto;
+    margin-top: 40px;
+    position: relative;
+    border-radius: 20px;
+}
+
+.hero img{ 
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.writeUps{ 
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    border: 3px solid red;
+    border-radius: 10px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.writeUps h2{ 
+    color: wheat;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
